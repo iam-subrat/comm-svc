@@ -1,0 +1,15 @@
+{
+  "name": "persist-worker",
+  "version": "1.0.0",
+  "description": "A worker service that consumes messages from Kafka and saves them to Postgres.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "kafkajs": "^2.0.0",
+    "pg": "^8.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
